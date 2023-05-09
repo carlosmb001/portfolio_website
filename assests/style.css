@@ -1,12 +1,11 @@
 * {
-    background-color: green;
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
     --color: green;
     --text-color:white;
+    --border-color:rgb(74, 74, 26);
 
 }
 
@@ -39,27 +38,44 @@ header{
     display: inline-block;
     margin-left: 20px;
 }
+
 a{
     color: var(--text-color);
     text-decoration: none;
 }
+
 body{
     background-color: var(--text-color);
 }
 
-.about-me{
-    background-color: var(--text-color);
-    margin-top: 5%;
-    width: 20%;
-
+.content {
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    width: 80%;
+    height: 100%;
+}
+.about-me {
+    margin: 10% auto;
+    width: 90%;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 20px;
+    padding: 15px;
+    border-color: var(--border-color);
 }
 
-.center{
+.center {
+    padding: 10px 10px;
     border-radius: 50%;
     width: 400px;
-    margin: 10px auto;
-    margin-bottom: 25px;
-    float: center;
-    
-
+    border-width: 0px;
+    border-color:rgb(202, 64, 87) ;
+}
+.contact-me{
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;;
 }
