@@ -1,13 +1,15 @@
 * {
-    background-color: pink;
+    background-color: green;
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    --color: purple;
+
+    --color: green;
     --text-color:white;
 
 }
+
 header{
     background-color: var(--color);
 }
@@ -22,33 +24,42 @@ header{
     display: inline-block;
     font-size: 50px;
 }
+.header nav {
+    margin-right: 20px;
+    float: right;
+    font-size: 17px;
+}
 
 .header nav ul{
+    padding-top: 32px;
+    margin-right: 20px;
     list-style-type: none;
-    float: right;
 }
 .header nav ul li {
     display: inline-block;
     margin-left: 20px;
 }
-.about-me{
-    padding: 20px 20px;
-    width: 40%;
-    height: 50%;
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+body{
     background-color: var(--text-color);
-
-}
-.about me{
-    bottom: auto;
-}
-.float-top{
-    float: left;
-    margin-right: 25px;
 }
 
-img {
-    position: absolute;
-    top: 30%;
-    width: 25%;
+.about-me{
+    background-color: var(--text-color);
+    margin-top: 5%;
+    width: 20%;
+
+}
+
+.center{
+    border-radius: 50%;
+    width: 400px;
+    margin: 10px auto;
+    margin-bottom: 25px;
+    float: center;
+    
 
 }
