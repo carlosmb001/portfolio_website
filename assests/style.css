@@ -3,10 +3,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    --color:  rgb(19, 150, 41);
-    --text-color:white;
-    --border-color:rgb(199, 183, 11);
-    /* background-color: rgb(19, 150, 41); */
+    --color:white;
+    --header-color:white;
+    --border-color-text:rgb(199, 183, 11);
+    --image-border-color: red;
+    background-color: rgb(8, 141, 31);
 
 }
 
@@ -15,8 +16,8 @@ header{
 }
 .header {   
     padding: 20px;
-    background-color: var(--color);
-    color: var(--text-color);
+    background-color: rgb(8, 141, 31);
+    color: var(--color);
 }
 .header h1{
     display: inline-block;
@@ -39,20 +40,21 @@ header{
 }
 
 a{
-    color: var(--text-color);
+    color: var(--color);
     text-decoration: none;
 }
 
 body{
-    background-color: var(--text-color);
+    background-color: var(--color);
 }
 
 h2{
-    color: var(--text-color);
+    color: var(--color);
     font-size: 40px;
 }
-h3{
-    color: var(--text-color);
+
+h3 {
+    color: var(--color);
     font-size: 30px;
 }
 .content {
@@ -69,15 +71,16 @@ h3{
     border-width: 15px;
     border-radius: 20px;
     padding: 5px;
-    border-color: var(--border-color);
+    border-color: var(--border-color-text);
 }
 
-.center {
+.center-photo {
+    border-style: solid;
     border-radius: 15%;
     border-width: 20px;
     width:40%;
     height: 40%;
-    border-color:rgb(202, 64, 87) ;
+    border-color:hsla(0, 0%, 100%, 0.89) ;
 }
 
 div {
@@ -90,13 +93,22 @@ div {
     border-width: 15px;
     border-radius: 20px;
     padding: 5px;
-    border-color: var(--border-color);
+    border-color: var(--border-color-text);
     text-align: center;
+    color: var(--color);
 }
-img{
+
+
+.project ul li{
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.work img{
     width: 90%;
     border-radius: 15px;
     border-width: 20px;
+    border-style: solid;
     border-color: rgb(255, 255, 255);
 }
 .contact-me{
@@ -109,16 +121,18 @@ img{
 }
 
 footer{
-    margin: 0 auto;
     width: 100%;
     padding: 10px;
     padding-bottom: 40px;
 }
 
 footer nav{
-    margin: 0 50%;}
+  text-align: center;
+}
 
 footer nav ul li{
     display: inline-block;
+}
+footer img{
     width: 50px;
 }
