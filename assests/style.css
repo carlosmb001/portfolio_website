@@ -6,7 +6,7 @@
     --color:  rgb(19, 150, 41);
     --text-color:white;
     --border-color:rgb(199, 183, 11);
-    background-color: rgb(19, 150, 41);
+    /* background-color: rgb(19, 150, 41); */
 
 }
 
@@ -73,10 +73,10 @@ h3{
 }
 
 .center {
-    padding: 5px 5px;
-    border-radius: 50%;
-    width: 70%;
-    border-width: 0px;
+    border-radius: 15%;
+    border-width: 20px;
+    width:40%;
+    height: 40%;
     border-color:rgb(202, 64, 87) ;
 }
 
@@ -95,6 +95,9 @@ div {
 }
 img{
     width: 90%;
+    border-radius: 15px;
+    border-width: 20px;
+    border-color: rgb(255, 255, 255);
 }
 .contact-me{
     margin: 0 auto;
@@ -106,13 +109,16 @@ img{
 }
 
 footer{
+    margin: 0 auto;
     width: 100%;
     padding: 10px;
     padding-bottom: 40px;
 }
 
+footer nav{
+    margin: 0 50%;}
+
 footer nav ul li{
     display: inline-block;
-    margin: 0 auto;
     width: 50px;
 }
