@@ -98,7 +98,10 @@ div {
     color: var(--color);
 }
 
+.project {
 
+    padding: 0;
+}
 .project ul li{
     list-style-type: none;
     margin: 0 auto;
@@ -111,6 +114,7 @@ div {
     border-style: solid;
     border-color: rgb(255, 255, 255);
 }
+
 .contact-me{
     margin: 0 auto;
     height: 100%;
