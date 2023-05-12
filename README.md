@@ -25,7 +25,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-https://www.w3schools.com/html/default.asp
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://coding-boot-camp.github.io/full-stack/
+https://www.w3schools.com/html/default.asp <br>
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br>
+https://coding-boot-camp.github.io/full-stack/ <br>
 
