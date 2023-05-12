@@ -134,6 +134,7 @@ div {
     margin-bottom: 20px;
   }
 
+  /* formats ans sets the contact me info */
   .contact-me button {
     padding: 10px;
     border-radius: 5px;
@@ -143,6 +144,7 @@ div {
     font-size: 16px;
   }
   
+  /* changes color when you hover over the button */
   .contact-me button:hover {
     background-color: #3e8e41;
   }
