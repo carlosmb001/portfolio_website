@@ -117,10 +117,17 @@ div {
 }
 
 #contact-me{
+    border: 1.5px solid black;
+    width : 40%;
     margin: 0 auto;
     padding: 120px;
     text-align: center;
     color: var(--color);
+}
+
+.work{
+    display: flex;
+    
 }
   
   .contact-me h3 {
