@@ -12,7 +12,7 @@ NA
 
 [Deployed website](https://carlosmb001.github.io/portfolio_website/)
 
-![image of website](assests/images/portfolio.png)
+![image of website](assests/images/profolio.png)
 
 ## Credits
 
