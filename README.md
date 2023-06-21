@@ -23,7 +23,7 @@ NA
 
 ## Credits
 
-https://www.w3schools.com/html/default.asp <br>
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/ <br>
-https://coding-boot-camp.github.io/full-stack/ <br>
+[W3School](https://www.w3schools.com/html/default.asp) <br>
+[CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) <br>
+[Coding-boot-camp](https://coding-boot-camp.github.io/full-stack/) <br>
 
